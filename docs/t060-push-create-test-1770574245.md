@@ -2,14 +2,13 @@
 title: T060 Push Create Test
 slug: t060-push-create-test-1770574245
 description: Test page created by T060 to verify push path creates Notion pages correctly
+sidebar_label: Testing
+sidebar_position: 99
 tags:
   - test
   - push
   - t060
-sidebar_position: 99
-date: 2026-02-08
-category: Testing
-status: Published
+date: "2026-02-08"
 ---
 
 # T060 Push Create Test
@@ -50,7 +49,7 @@ function testPush() {
 ## Expected Outcome
 
 After running the push sync:
+
 1. A new page should appear in the Notion test database
 2. Properties should be set correctly from frontmatter
 3. Content blocks should be converted properly
-
