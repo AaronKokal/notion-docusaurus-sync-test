@@ -14,7 +14,11 @@ date: "2026-02-06"
 
 The following table describes all available configuration options:
 
-<!-- Empty table -->
+| Option | Type | Description |
+| --- | --- | --- |
+| notionToken | string | Notion integration secret token |
+| databaseId | string | ID of the Notion database to sync |
+| conflictStrategy | string | latest-wins | notion-wins | git-wins |
 
 ## Conflict Strategies
 
