@@ -1,9 +1,9 @@
 ---
 title: T168 Conflict Test
 slug: t168-conflict-test
-description: "FINAL UPDATE: Notion version with newest timestamp"
+description: Test page for T168 latest-wins conflict resolution
 ---
 
-**Content modified in Notion - This should WIN**
+**Content modified in GitHub - This should LOSE**
 
-Notion made this change with a NEWER timestamp.
+GitHub made this change at 2026-02-08T22:06:05Z
