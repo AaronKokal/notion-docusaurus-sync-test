@@ -1,7 +1,6 @@
 ---
 title: T167 Bidir Test - GitHub Only
 slug: t167-github-only
-status: Published
 description: Test file for bidirectional sync - created in GitHub
 ---
 
