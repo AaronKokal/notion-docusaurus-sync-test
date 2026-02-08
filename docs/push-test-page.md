@@ -2,13 +2,12 @@
 title: Push Test Page
 slug: push-test-page
 description: A test page created to verify the push path works correctly
+sidebar_label: Testing
+sidebar_position: 99
 tags:
   - test
   - push
   - verification
-sidebar_position: 99
-category: Testing
-status: Published
 ---
 
 # Push Test Page
