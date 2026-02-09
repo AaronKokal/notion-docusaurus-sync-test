@@ -48,6 +48,6 @@ Tip: Store your Notion token in a .env file and never commit it to version contr
 
 :::
 
-## T169 Notion Marker
+## T169 GitHub Marker
 
-T169: Notion content for notion-wins test. Notion edit is the OLDER change.
+T169: GitHub content for notion-wins test. GitHub edit is the NEWER change.
