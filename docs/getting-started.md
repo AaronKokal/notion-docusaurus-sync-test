@@ -12,7 +12,7 @@ date: "2026-02-06"
 
 ## Introduction
 
-NOTION CONTENT v10: Conflict marker for success flag test.
+T170: Pull-only verification test. This content was edited in Notion.
 
 ### Prerequisites
 
