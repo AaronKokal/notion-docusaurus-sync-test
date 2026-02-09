@@ -12,42 +12,8 @@ date: "2026-02-06"
 
 ## Introduction
 
-NOTION T172: Should WIN in latest-wins because this was edited AFTER the Git commit.
+This guide walks you through setting up bidirectional sync.
 
-### Prerequisites
+## T173 Notion-Wins Test
 
-- Node.js 20 or later
-- A Notion integration token
-- A Docusaurus project (v3 recommended)
-
-## Installation
-
-Install the sync tool via npm:
-
-```bash
-npm install notion-docusaurus-sync
-```
-
-## Configuration
-
-Create a configuration file in your project root:
-
-```typescript
-// sync.config.ts
-export default {
-  notionToken: process.env.NOTION_TOKEN,
-  databaseId: "your-database-id",
-  outputDir: "./docs",
-  conflictStrategy: "latest-wins",
-};
-```
-
-:::tip
-
-Tip: Store your Notion token in a .env file and never commit it to version control.
-
-:::
-
-## T169 Notion Should Lose (v3)
-
-NOTION v7: Should be overwritten by git-wins.
+GIT T173: Should LOSE with notion-wins even though Git was edited more recently.
