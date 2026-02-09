@@ -12,8 +12,42 @@ date: "2026-02-06"
 
 ## Introduction
 
-This guide walks you through setting up bidirectional sync.
+NOTION CONTENT v9: Written from Notion for webhook response test.
 
-## Webhook Response Test v9
+### Prerequisites
 
-GIT v9: Testing webhook response reporting.
+- Node.js 20 or later
+- A Notion integration token
+- A Docusaurus project (v3 recommended)
+
+## Installation
+
+Install the sync tool via npm:
+
+```bash
+npm install notion-docusaurus-sync
+```
+
+## Configuration
+
+Create a configuration file in your project root:
+
+```typescript
+// sync.config.ts
+export default {
+  notionToken: process.env.NOTION_TOKEN,
+  databaseId: "your-database-id",
+  outputDir: "./docs",
+  conflictStrategy: "latest-wins",
+};
+```
+
+:::tip
+
+Tip: Store your Notion token in a .env file and never commit it to version control.
+
+:::
+
+## T169 Notion Should Lose (v3)
+
+NOTION v7: Should be overwritten by git-wins.
