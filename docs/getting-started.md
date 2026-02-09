@@ -14,6 +14,6 @@ date: "2026-02-06"
 
 This guide walks you through setting up bidirectional sync.
 
-## Archive Test v7
+## Webhook Response Test v8
 
-GIT CONTENT v7: Written from GitHub for archive+create test.
+GIT v8: Testing that the webhook response correctly reports push results and conflicts.
