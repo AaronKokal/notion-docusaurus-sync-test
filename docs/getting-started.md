@@ -48,6 +48,6 @@ Tip: Store your Notion token in a .env file and never commit it to version contr
 
 :::
 
-## T168 Notion Marker v2
+## T169 Notion Marker
 
-This paragraph was updated from Notion for the latest-wins conflict test v2. Notion edit is the NEWER change.
+T169: Notion content for notion-wins test. Notion edit is the OLDER change.
