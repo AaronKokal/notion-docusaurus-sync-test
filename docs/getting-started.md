@@ -48,6 +48,6 @@ Tip: Store your Notion token in a .env file and never commit it to version contr
 
 :::
 
-## T169 GitHub Should Win
+## T169 Notion Should Lose
 
-T169 git-wins retest: This GitHub content should overwrite Notion content.
+T169 git-wins retest: This Notion content should be overwritten by GitHub content.
