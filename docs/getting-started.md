@@ -24,15 +24,15 @@ This guide walks you through setting up bidirectional sync between your Notion w
 
 Install the sync tool via npm:
 
-\`\`\`bash
+```bash
 npm install notion-docusaurus-sync
-\`\`\`
+```
 
 ## Configuration
 
 Create a configuration file in your project root:
 
-\`\`\`typescript
+```typescript
 // sync.config.ts
 export default {
   notionToken: process.env.NOTION_TOKEN,
@@ -40,7 +40,7 @@ export default {
   outputDir: "./docs",
   conflictStrategy: "latest-wins",
 };
-\`\`\`
+```
 
 :::tip
 
@@ -48,6 +48,6 @@ Tip: Store your Notion token in a .env file and never commit it to version contr
 
 :::
 
-## Archive+Create Test v6
+## T169 Notion Should Lose (v3)
 
-GIT CONTENT v6: This was written from GitHub. If visible in Notion, the archive+create push path works!
+NOTION MARKER v6: This should be OVERWRITTEN if git-wins works properly.
