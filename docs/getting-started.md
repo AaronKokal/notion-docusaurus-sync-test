@@ -48,6 +48,6 @@ Tip: Store your Notion token in a .env file and never commit it to version contr
 
 :::
 
-## T168 GitHub Marker
+## T168 Notion Marker
 
-This paragraph was added from GitHub for the latest-wins conflict test.
+This paragraph was added from Notion for the latest-wins conflict test.
